@@ -1,0 +1,9 @@
+{
+    "guid": "codbex-perseus-ext",
+    "repository": {
+        "type": "git",
+        "branch": "main",
+        "url": "https://github.com/codbex/codbex-perseus-ext.git"
+    },
+    "dependencies": []
+}
