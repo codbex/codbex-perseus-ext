@@ -260,7 +260,7 @@
                 let url_string = (window.location.href).toLowerCase();
                 let url = new URL(url_string);
                 let id = url.searchParams.get("id");
-                var companyUrl = "/services/js/codbex-perseus/gen/api/Settings/Company.js/" + id;
+                var companyUrl = "/services/js/codbex-perseus/gen/api/Settings/Company.js/1";
                 $http.get(companyUrl)
                 .then(function(response) {
                     $scope.Company = response.data;
