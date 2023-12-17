@@ -1,0 +1,5 @@
+{
+    "module": "codbex-perseus-ext/print/SalesInvoice/sales-invoice-print.js",
+    "extensionPoint": "codbex-perseus-custom-action",
+    "description": "Print Sales Invoice Custom Action"
+}
