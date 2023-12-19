@@ -283,11 +283,12 @@
                     $http.get(itemsUrl)
                     .then(function(response) {
                         $scope.InvoiceItems = response.data;
-                    });
-                    var customerUrl = "/services/js/codbex-perseus/gen/api/Partners/Customer.js/" + $scope.Invoice.Customer;
-                    $http.get(customerUrl)
-                    .then(function(response) {
-                        $scope.Customer = response.data;
+                        var customerUrl = "/services/js/codbex-perseus/gen/api/Partners/Customer.js/" + $scope.Invoice.Customer;
+                        $http.get(customerUrl)
+                        .then(function(response) {
+                            $scope.Customer = response.data;
+                            window.print();
+                        });
                     });
                 });
             });

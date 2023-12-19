@@ -4,7 +4,7 @@ exports.getAction = function () {
         label: 'Print',
         perspective: 'SalesInvoices',
         view: 'SalesInvoice',
-        type: 'page',
+        type: 'entity',
         link: '/services/web/codbex-perseus-ext/print/SalesInvoice/index.html'
     }
 }
